@@ -67,7 +67,7 @@ class PuzzleGame:
     def __init__(self, root):
 
         self.root = root
-        self.root.title("Color Puzzle")
+        self.root.title("Code Breaker")
 
         self.create_ui()
         self.new_puzzle()
@@ -162,4 +162,5 @@ class PuzzleGame:
 
 root = tk.Tk()
 game = PuzzleGame(root)
+
 root.mainloop()
